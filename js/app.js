@@ -5,9 +5,9 @@ const particles = {
 document.querySelectorAll('button').forEach(function(button) {
     button.addEventListener('click', function(e) {
         if (e.target.id === 'yes') {
-            document.querySelector('#particles-js').style.display = "block"
+            document.querySelector('#particles-js').style.display = "none"
             const messages = [
-                'Y- you actually said yes 🥲. \n I LOVE YOU MY AMAZING BEAUTIFUL SMART BADDIE BABY! 😘😘😘😘😘😘',
+                'Y- you actually said yes 🥲. I LOVE YOU MY AMAZING BEAUTIFUL SMART BADDIE BABY! 😘😘😘😘😘😘',
                 
             ] 
             const random = Math.floor(Math.random() * messages.length);
