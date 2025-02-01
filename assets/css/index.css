@@ -3,7 +3,7 @@
 body {
     margin: 0; auto;
     font-family: 'Protest Riot', sans-serif;
-    background-color: #fff1f3;
+    
 }
   
 canvas {
@@ -15,7 +15,7 @@ canvas {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    background-color: #fff1f3;
     background-image: url("");
     background-repeat: no-repeat;
     background-size: cover;
