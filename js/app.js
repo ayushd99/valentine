@@ -1,4 +1,4 @@
-import confetti from 'https://cdn.skypack.dev/canvas-confetti';
+
 
 const particles = {
     
@@ -22,7 +22,6 @@ document.querySelectorAll('button').forEach(function(button) {
             document.querySelector('#gif').src = "https://media.tenor.com/Ka7sVbRXQUwAAAAj/tkthao219-bubududu.gif" 
             document.querySelector('#yes').style.display = 'none'; 
             document.querySelector('#no').style.display = 'none'; 
-            confetti(); // Trigger confetti animation
 
             particlesJS('particles-js', {
                 "particles": {
