@@ -146,9 +146,10 @@ document.querySelectorAll('button').forEach(function(button) {
             document.querySelector('#particles-js').style.display = "none" 
             const messages = [
                 'Why not?', 'Your answer makes me sad 🥲', 'Pleasee be my valentine', 
-                'b- b- but... why :(', 'You must say yes', 'I know you want to 👀',
-                'Wrong answer!', 'You must have misclicked...', 'This hurts me 😖',
+                'b- b- but... why :(', 'You must say yes', 
+                'You must have misclicked...', 'This hurts me 😖',
                 'I cannot believe this', 'PLEASE BABY', 'I did not expect this ',
+                "Don't do this to me :(", "You're breaking my heart baby 💔", "I'm gonna cry..."
                 'NO BABY :('
             ]
             const random = Math.floor(Math.random() * messages.length);
