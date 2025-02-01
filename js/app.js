@@ -36,7 +36,7 @@ document.querySelectorAll('button').forEach(function(button) {
                         "nb_sides": 3
                     },
                     "image": {
-                        "src": "../assets/heart.png",
+                        "src": "../valentine/assets/heart.png",
                         "width": 50,
                         "height": 50
                     }
