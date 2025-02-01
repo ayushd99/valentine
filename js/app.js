@@ -2,6 +2,11 @@ const particles = {
     
 }
 
+let buttonHeight = 48; // Starting height in pixels
+let buttonWidth = 80;
+let fontSize = 20; // Starting font size in pixels
+
+
 document.querySelectorAll('button').forEach(function(button) {
     button.addEventListener('click', function(e) {
         if (e.target.id === 'yes') {
@@ -147,6 +152,14 @@ document.querySelectorAll('button').forEach(function(button) {
             const random = Math.floor(Math.random() * messages.length);
             document.querySelector('h1').innerText = messages[random]
             document.querySelector("#gif").src = "https://media.tenor.com/RJgIui1E_2QAAAAj/teddy-bear.gif"
+
+            const yesButton = document.querySelector('#yes');
+            buttonHeight += 35; // Increase height by 5px on each click
+            buttonWidth += 35;
+            fontSize += 25; // Increase font size by 1px on each click
+            yesButton.style.height = `${buttonHeight}px`; // Update button height
+            yesButton.style.width = `${buttonWidth}px`;
+            yesButton.style.fontSize = `${fontSize}px`; // Update font size
             
         }
     })
