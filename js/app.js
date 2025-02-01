@@ -42,7 +42,7 @@ document.querySelectorAll('button').forEach(function(button) {
                     }
                     },
                     "opacity": {
-                    "value": 0.5,
+                    "value": 0.4,
                     "random": false,
                     "anim": {
                         "enable": false,
