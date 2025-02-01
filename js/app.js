@@ -7,9 +7,7 @@ document.querySelectorAll('button').forEach(function(button) {
         if (e.target.id === 'yes') {
             document.querySelector('#particles-js').style.display = "block"
             const messages = [
-                'YAY, I LOVE YOU!', 'This makes me so happy!', 'Yessss!', 'OMG! She said yes :)',
-                'You choose the right answer', 'You made my day', "You've made my heart flutter!",
-                "You're my sunshine on a cloudy day!", "You mean the world to me", 'Y- you actually said yes 🥲'
+                'Y- you actually said yes 🥲. I LOVE YOU MY AMAZING BEAUTIFUL SMART BADDIE BABY! 😘😘😘😘😘😘',
                 
             ] 
             const random = Math.floor(Math.random() * messages.length);
@@ -140,11 +138,11 @@ document.querySelectorAll('button').forEach(function(button) {
         if(e.target.id === "no") {
             document.querySelector('#particles-js').style.display = "none" 
             const messages = [
-                'Why not?', 'Your answer makes me sad', 'Pleasee be my valentine', 
-                'b- b- but... why :(', 'You must say yes', 'I know you want to',
-                'Wrong answer!', 'You must have misclicked...', 'This hurts me',
-                'I cannot believe this', 'Am I not worthy?', 'I did not expect this',
-                'So much effort to be denied :('
+                'Why not?', 'Your answer makes me sad 🥲', 'Pleasee be my valentine', 
+                'b- b- but... why :(', 'You must say yes', 'I know you want to 👀',
+                'Wrong answer!', 'You must have misclicked...', 'This hurts me 😖',
+                'I cannot believe this', 'PLEASE BABY', 'I did not expect this ',
+                'NO BABY :('
             ]
             const random = Math.floor(Math.random() * messages.length);
             document.querySelector('h1').innerText = messages[random]
