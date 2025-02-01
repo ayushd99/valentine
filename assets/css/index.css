@@ -44,6 +44,9 @@ h1 {
     font-size: 4rem;
     text-transform: uppercase;
     vertical-align:middle;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
