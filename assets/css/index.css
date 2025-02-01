@@ -3,6 +3,7 @@
 body {
     margin: 0; auto;
     font-family: 'Protest Riot', sans-serif;
+    background-color: #fff1f3;
 }
   
 canvas {
@@ -55,8 +56,8 @@ button {
 }
 
 #yes {
-    background-color: #f7e9ed;
-    color: pink;
+    background-color: #54B435;
+    color: white;
 }
 
 #no {
