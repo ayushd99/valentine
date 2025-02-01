@@ -149,7 +149,7 @@ document.querySelectorAll('button').forEach(function(button) {
                 'b- b- but... why :(', 'You must say yes', 
                 'You must have misclicked...', 'This hurts me 😖',
                 'I cannot believe this', 'PLEASE BABY', 'I did not expect this ',
-                "Don't do this to me :(", "You're breaking my heart baby 💔", "I'm gonna cry..."
+                "Don't do this to me :(", "You're breaking my heart baby 💔", "I'm gonna cry...",
                 'NO BABY :('
             ]
             const random = Math.floor(Math.random() * messages.length);
